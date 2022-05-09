@@ -1,0 +1,63 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+canvas {
+  display: block;
+}
+
+.seletor {
+  position: absolute;
+  left: 820px;
+  top: 440px;
+
+}
+
+.seletor2 {
+  position: absolute;
+  left: 1000px;
+  top: 440px;
+
+}
+
+body > div.seletor > label{
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+body > div.seletor2 > label{
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+body > div.seletor > input{
+  position: absolute;
+  cursor: pointer;
+  background-color: #eee;
+}
+
+body > div.seletor2 > input{
+  position: absolute;
+  cursor: pointer;
+}
+
+body > div.seletor2 > input:checked{
+  background-color: black;
+}
